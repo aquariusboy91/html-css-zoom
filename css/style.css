@@ -3,3 +3,58 @@
     margin:0;
     box-sizing: border-box;
 }
+
+header {
+    position: fixed;
+    height: 50px; 
+    width: 100vw;
+}
+
+body {
+    background-color: black;
+}
+.nav-flexato {
+    display: flex;
+    height: 50px;
+    background-color: black;
+    justify-content: flex-end;
+   
+} 
+
+.nav-btn {
+    height: 20px;
+    margin: 0.3em 0.3em;
+    font-size: x-small;
+    background-color: #4A4A4A;
+    color: #E2F7FD;
+    border-radius: 3%;
+    border:0;
+    padding: 0em 0.5em;
+    
+}
+
+.sv-pdn {
+    padding-left: 0.5em;
+}
+
+.main-flexato {
+    display: flex;
+    background-color: black;
+    height: calc(100vh + 20px);
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    width: 90%;
+    margin: 0 auto;
+    align-content: flex-start;
+    overflow: hidden;
+}
+
+.call-view {
+    background-image: url(../img/2682.jpg);
+    height: 8em;
+    width: 12em;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 1em;
+}
