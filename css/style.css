@@ -46,10 +46,10 @@ body {
 .main-flexato {
     display: flex;
     background-color: black;
-    height: calc(100vh + 20px);
+    height: 100vh;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding-top: 50px;
+    padding-top: 3em;
     width: 90%;
     margin: 0 auto;
     align-content: flex-start;
@@ -58,7 +58,7 @@ body {
 
 .call-view {
     background-image: url(../img/2682.jpg);
-    height: 8em;
+    height: 7em;
     width: 12em;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -66,14 +66,17 @@ body {
 }
 
 .nav-footer {
-    height: 3em;
+    height: 3.5em;
     width: 100vw;
     background-color: darkslategrey;
-    margin-top: 2em;
     display: flex;
     color: white;
     overflow: hidden;
 
+}
+
+.nav-footer *:hover {
+    color: yellow;
 }
 
 .f-nav-sx {
@@ -89,6 +92,26 @@ body {
 .f-nav-sx span {
     display: block;
     text-align: center;
+    font-size: large;
+}
+
+.f-nav-sx div {
+    font-size: small;
+}
+
+.f-nav-sx a {
+    text-decoration: none;
+    color: white;
+}
+
+.f-nav-center a {
+    text-decoration: none;
+    color: white;
+}
+
+.f-nav-dx a {
+    text-decoration: none;
+    color: white;
 }
 
 .arrow-up {
@@ -119,33 +142,56 @@ body {
     align-content: center;
     width: 10%;
     flex-wrap: nowrap;
-    
-    
 }
 
 .f-nav-center span {
     display: block;
     text-align: center;
+    font-size: large;
 }
 
 .f-nav-center div{
     padding-right: 0.5em;
     max-width: 100%;
+    font-size: small;
     
 }
 
 .f-nav-dx span {
-    padding-right: 1.5em;
+    padding-right: 2em;
     padding-left: 1em;
-    line-height: 3.5em;
+    line-height: 4.5em;
 }
 
 .end-meeting {
     height: 100%;
     background-color: gray;
-    color: red;
+    color: red;     
+    font-size: small;
 }
 
 footer {
     overflow: hidden;
+}
+
+.fas.fa-share-square {
+    color: green;
+}
+
+.main-flexato div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.call-view div{
+    font-size: small;
+    color: white;
+    padding: 0.1em;
+    background:rgba(99, 99, 99, 0.4);
+} 
+
+.fas.fa-microphone-slash {
+    line-height: 1.5em;
+    padding-right: 0.1em;
 }
