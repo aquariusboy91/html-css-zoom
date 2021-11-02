@@ -16,9 +16,9 @@ body {
 }
 .nav-flexato {
     display: flex;
-    height: 50px;
     background-color: black;
     justify-content: flex-end;
+    height: 3.5em;
    
 } 
 
@@ -46,20 +46,19 @@ body {
 .main-flexato {
     display: flex;
     background-color: black;
-    height: 100vh;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding-top: 3em;
     width: 90%;
     margin: 0 auto;
     align-content: flex-start;
-    overflow: hidden;
+    padding-top: 3.5em;
+    
 }
 
 .call-view {
     background-image: url(../img/2682.jpg);
     height: 7em;
-    width: 12em;
+    width: 11em;
     background-size: 100%;
     background-repeat: no-repeat;
     margin-bottom: 1em;
